@@ -1,0 +1,39 @@
+*{
+    padding: 0 px;
+    margin: 0 px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+#main-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin-left: 2%;
+}
+#main-box  #firt-image,
+#main-box  #second-image,
+#main-box  #third-image,
+#main-box  #fourth-image,
+#main-box  #five-image
+{
+    position: relative;
+    display: inline-block;
+}
+#main-box img{
+    width: 750px;
+    height: 440px;
+    border-radius: 8%;
+    margin-left: 25px;
+}
+#main-box  h2{
+    color:aliceblue;
+    position: absolute;
+    font-size: 23px;
+    top: 87%;
+    left: 6%;
+}
