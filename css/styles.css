@@ -3,18 +3,18 @@
     margin: 0 px;
 }
 body{
-    width: 100%;
+    width: 1200px;
     height: 100vh;
-overflow: hidden;
+
 }
 
 #main-box{
-    width: 100%;
+    width: 1200px;
     height: 100vh;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow:  column wrap;
     justify-content: center;
-    margin-left: 2%;
+
 }
 #main-box  #firt-image,
 #main-box  #second-image,
@@ -22,23 +22,24 @@ overflow: hidden;
 #main-box  #fourth-image,
 #main-box  #five-image
 {
-    width: 719px;
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    margin-left: 4px;
 
+    position: relative;
+
+
+    margin-left: 5px;
 }
 #main-box img{
     width: 700px;
     height: 400px;
     border-radius: 8%;
     margin-left: 5px;
+    object-fit:cover;
 }
 #main-box  h2{
-    color:aliceblue;
+    color:white;
     position: absolute;
     font-size: 23px;
     top: 87%;
     left: 6%;
+ 
 }
